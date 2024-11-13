@@ -11,3 +11,4 @@ desconto = 10
 
 porcentagem_desconto = (valor_compra*desconto)/100
 print(f"Sua compra após o desconto E de R${valor_compra - porcentagem_desconto}")
+print(f"O valor original da compra é R${valor_compra}. Com um desconto de {desconto}%, o preço final é R${valor_compra * (1 - desconto / 100):.2f}.")
