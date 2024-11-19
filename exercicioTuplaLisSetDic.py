@@ -49,3 +49,8 @@ pessoa = {
 
 # Imprimindo o valor da chave "Nome"
 print(pessoa["Nome"])
+
+# Usando loop para imprimir todos os valores
+for valor in pessoa.values():
+    print(valor)
+
